@@ -35,7 +35,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       # vb.gui = true
       
       # specify vm name
-      vb.name = "takipi-devel-env"
+      vb.name = "takipi-devel-env-2"
        
       # Use VBoxManage to customize the VM. For example to change memory:
       vb.customize ["modifyvm", :id, "--memory", "1024"]
